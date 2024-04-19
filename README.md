@@ -21,4 +21,5 @@ Imagine you are looking for a new mobile plan for your smartphone. Three major t
 
 
 # JAVA Solution for Visitor Pattern 
-![JAVA SOLUTION_VISITOR_PATTERN_SW](https://github.com/VinceTedChua/visitorPattern/assets/142372312/506a1e6c-30e7-4852-bb19-2742d7f36198)
+![JAVA SOLUTION_VISITOR_PATTERN_SW](https://github.com/VinceTedChua/visitorPattern/assets/142372312/3db68b61-a940-4c7f-b21e-6c88492b9938)
+
