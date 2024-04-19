@@ -16,6 +16,6 @@ public class TelcoAllowance implements UsagePromo {
 
     public String showAllowance(String telcoName, double money) {
         double allowance = allowanceMap.getOrDefault(telcoName, 0.0);
-        return "₱" + allowance + " the allowance of " + telcoName;
+        return + allowance + "GB" + " the allowance of " + telcoName;
     }
 }

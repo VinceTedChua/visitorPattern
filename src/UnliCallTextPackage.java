@@ -20,9 +20,9 @@ public class UnliCallTextPackage implements UnliCallsTextOffer {
         }
 
         if (unliCallText) {
-            return "Unlimited call and text ₱" + insuranceValue;
+            return "Unlimited call and text package for ₱" + insuranceValue;
         } else {
-            return "Call and text packages for ₱" + insuranceValue;
+            return "Regular Call and text package for ₱" + insuranceValue;
         }
     }
 }

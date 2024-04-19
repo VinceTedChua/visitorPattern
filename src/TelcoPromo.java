@@ -4,6 +4,7 @@
 
 public class TelcoPromo {
     public static void main(String[] args) {
+        //I kindly swapped around telcoName reference with Data Allowance because it wouldn't let me run the code po.
         TelcoSubscription smart = new Telco("Smart", 500, 15, false);
         TelcoSubscription globe = new Telco("Globe", 450, 10, true);
         TelcoSubscription ditto = new Telco("Ditto", 400, 8, true);
