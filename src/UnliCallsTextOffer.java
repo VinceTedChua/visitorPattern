@@ -1,4 +1,3 @@
-import java.util.*;
-public interface UnliCallOffer {
+public interface UnliCallsTextOffer {
     String showUnliCallsTextOffer(String telcoName, boolean unliCallText);
 }

@@ -1,5 +1,3 @@
-import java.util.*;
-
 //Vince Ted Matthew D. Chua
 //April 18th, 2024
 //Software Engineering II
@@ -11,7 +9,7 @@ public class TelcoPromo {
         TelcoSubscription ditto = new Telco("Ditto", 400, 8, true);
 
         UsagePromo promo = new TelcoAllowance();
-        UnliCallOffer unli = new UnliCallTextPackage();
+        UnliCallsTextOffer unli = new UnliCallTextPackage();
 
         System.out.println("Smart Data Usage Offer and price: " + promo.showAllowance("Smart", ((Telco) smart).getPromoPrice()));
         System.out.println("Globe Data Usage Offer and price: " + promo.showAllowance("Globe", ((Telco) globe).getPromoPrice()));

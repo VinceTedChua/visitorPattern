@@ -3,7 +3,7 @@ import java.util.*;
 //Vince Ted Matthew D. Chua
 //April 18th, 2024
 //Software Engineering II
-public class UnliCallTextPackage implements UnliCallOffer {
+public class UnliCallTextPackage implements UnliCallsTextOffer {
     private static final Map<String, Double> insuranceMap = new HashMap<>();
 
     static {
@@ -22,7 +22,7 @@ public class UnliCallTextPackage implements UnliCallOffer {
         if (unliCallText) {
             return "Unlimited call and text ₱" + insuranceValue;
         } else {
-            return "Call and text package for ₱" + insuranceValue;
+            return "Call and text packages for ₱" + insuranceValue;
         }
     }
 }

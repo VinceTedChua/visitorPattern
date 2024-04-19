@@ -1,5 +1,3 @@
-import java.util.*;
-
 //Vince Ted Matthew D. Chua
 //April 18th, 2024
 //Software Engineering II
@@ -32,9 +30,9 @@ public class Telco implements TelcoSubscription {
         return promo.showAllowance(telcoName, price);
     }
 
-    //accept UnliCallsTextOffer, boolean unliCallText : String
-    public String accept(UnliCallOffer unliCallOffer, boolean unliCallTextEnabled) {
-        return unliCallOffer.showUnliCallsTextOffer(telcoName, unliCallTextEnabled);
+    //accept UnliCallsTextOffer unliPackage, boolean unliCallText : String
+    public String accept(UnliCallsTextOffer unliPackage, boolean unliCallText) {
+        return unliPackage.showUnliCallsTextOffer(telcoName, unliCallText);
     }
     //This will link Telco to Telco Subscription
 }
